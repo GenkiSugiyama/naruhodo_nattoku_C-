@@ -1,0 +1,6 @@
+/Users/sugiyamagenki/Projects/MySample1/MySample1/obj/Debug/MySample1.csproj.AssemblyReference.cache
+/Users/sugiyamagenki/Projects/MySample1/MySample1/obj/Debug/MySample1.csproj.CoreCompileInputs.cache
+/Users/sugiyamagenki/Projects/MySample1/MySample1/bin/Debug/MySample1.exe
+/Users/sugiyamagenki/Projects/MySample1/MySample1/bin/Debug/MySample1.pdb
+/Users/sugiyamagenki/Projects/MySample1/MySample1/obj/Debug/MySample1.exe
+/Users/sugiyamagenki/Projects/MySample1/MySample1/obj/Debug/MySample1.pdb
