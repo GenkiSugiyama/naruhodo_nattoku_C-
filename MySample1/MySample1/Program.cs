@@ -6,19 +6,12 @@ namespace MySample1
     {
         public static void Main(string[] args)
         {
-            //文字列型（string）と文字型（char）
+            var name = "近藤さん";
+            var age = 19;
+            Console.WriteLine("{0}さんは、{1}歳です", name, age);
 
-            //string型は連続した文字をダブルクォーテーションで囲う
-            var message = "こんにちは";
-            Console.WriteLine("変数messageの型：{0}", message.GetType());
-            //1文字をダブルクォーテーションで囲ってもstring型になる
-            var message2 = "あ";
-            Console.WriteLine("変数message2の型：{0}", message2.GetType());
-
-            //char型はシングルクォーテーションで囲う
-            //2文字以上をシングルクォーテーションで囲うとエラーになる
-            var symbol = 'あ';
-            Console.WriteLine("変数symbolの型：{0}", symbol.GetType());
+            var str = "改行を示すエスケープシーケンスは、\\nです。";
+            Console.WriteLine(str);
         }
     }
 }
