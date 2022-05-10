@@ -6,12 +6,19 @@ namespace MySample1
     {
         public static void Main(string[] args)
         {
-            //decimal型は数値の末尾にmをつける
-            //decimalはfloatやdubleと異なり小数点以下の値を28桁まで正確に持てる
-            //そのため金融や財務上の計算に適している
-            var price = 1280m;
-            var priceIncludingTax = price * 1.1m;
-            Console.WriteLine(priceIncludingTax);
+            //文字列型（string）と文字型（char）
+
+            //string型は連続した文字をダブルクォーテーションで囲う
+            var message = "こんにちは";
+            Console.WriteLine("変数messageの型：{0}", message.GetType());
+            //1文字をダブルクォーテーションで囲ってもstring型になる
+            var message2 = "あ";
+            Console.WriteLine("変数message2の型：{0}", message2.GetType());
+
+            //char型はシングルクォーテーションで囲う
+            //2文字以上をシングルクォーテーションで囲うとエラーになる
+            var symbol = 'あ';
+            Console.WriteLine("変数symbolの型：{0}", symbol.GetType());
         }
     }
 }
