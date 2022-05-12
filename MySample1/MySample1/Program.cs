@@ -6,12 +6,14 @@ namespace MySample1
     {
         public static void Main(string[] args)
         {
-            var name = "近藤さん";
-            var age = 19;
-            Console.WriteLine("{0}さんは、{1}歳です", name, age);
-
-            var str = "改行を示すエスケープシーケンスは、\\nです。";
-            Console.WriteLine(str);
+            //string型→int型への変換
+            var total = 100;
+            var line = Console.ReadLine();
+            //string型→int型への変換はキャストではなくint.Parse(string)を使用する
+            //doubleやdecimal、longへの変換も{変換後の型}.Parseで変換可能
+            var count = int.Parse(line);
+            var num = total / count;
+            Console.WriteLine(num);
         }
     }
 }
