@@ -6,14 +6,27 @@ namespace MySample1
     {
         public static void Main(string[] args)
         {
-            //string型→int型への変換
-            var total = 100;
-            var line = Console.ReadLine();
-            //string型→int型への変換はキャストではなくint.Parse(string)を使用する
-            //doubleやdecimal、longへの変換も{変換後の型}.Parseで変換可能
-            var count = int.Parse(line);
-            var num = total / count;
-            Console.WriteLine(num);
+            var priceText = Console.ReadLine();
+            int purchasePrice = int.Parse(priceText);
+            var rate = 0.01;
+            var grantPoint = (int)(purchasePrice * rate);
+            var specialGrantPoint = grantPoint * 5;
+            Console.WriteLine($"付与ポイントは{specialGrantPoint}ポイントです！");
         }
     }
+
+    //class PurchasePrice
+    //{
+    //    decimal Price;
+
+    //    void PurchasePrise(string priceText)
+    //    {
+    //        this.Price = decimal.Parse(priceText);
+    //    }
+
+    //    int calucPoint(PurchasePrice price)
+    //    {
+    //        return 
+    //    }
+    //}
 }
