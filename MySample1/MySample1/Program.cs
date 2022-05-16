@@ -15,18 +15,13 @@ namespace MySample1
         }
     }
 
-    //class PurchasePrice
-    //{
-    //    decimal Price;
+    class Price
+    {
 
-    //    void PurchasePrise(string priceText)
-    //    {
-    //        this.Price = decimal.Parse(priceText);
-    //    }
+    }
 
-    //    int calucPoint(PurchasePrice price)
-    //    {
-    //        return 
-    //    }
-    //}
+    class GrantPoint
+    {
+
+    }
 }
