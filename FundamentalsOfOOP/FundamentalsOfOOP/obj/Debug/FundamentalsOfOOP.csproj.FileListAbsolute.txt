@@ -1,0 +1,6 @@
+/Users/sugiyamagenki/Projects/FundamentalsOfOOP/FundamentalsOfOOP/bin/Debug/FundamentalsOfOOP.exe
+/Users/sugiyamagenki/Projects/FundamentalsOfOOP/FundamentalsOfOOP/bin/Debug/FundamentalsOfOOP.pdb
+/Users/sugiyamagenki/Projects/FundamentalsOfOOP/FundamentalsOfOOP/obj/Debug/FundamentalsOfOOP.csproj.AssemblyReference.cache
+/Users/sugiyamagenki/Projects/FundamentalsOfOOP/FundamentalsOfOOP/obj/Debug/FundamentalsOfOOP.csproj.CoreCompileInputs.cache
+/Users/sugiyamagenki/Projects/FundamentalsOfOOP/FundamentalsOfOOP/obj/Debug/FundamentalsOfOOP.exe
+/Users/sugiyamagenki/Projects/FundamentalsOfOOP/FundamentalsOfOOP/obj/Debug/FundamentalsOfOOP.pdb
