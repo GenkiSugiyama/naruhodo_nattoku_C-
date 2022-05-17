@@ -29,11 +29,20 @@ namespace FundamentalsOfOOP
             //クラスは同じ
             var isSameClass = book.GetType() == book2.GetType();
             Console.WriteLine(isSameClass);
+
+            Console.WriteLine($"{book.Title}の情報");
+            book.Print();
+
+            Console.WriteLine($"{book2.Title}の情報");
+            book2.Print();
+
+
         }
     }
 
     class Book
     {
+        //プロパティの定義
         //アクセス修飾子を省略した場合はprivateが指定されたとみなされ外部からのアクセス不可となる
         public string Title { get; set; }
 
@@ -42,5 +51,13 @@ namespace FundamentalsOfOOP
         public int Pages { get; set; }
 
         public int Rating { get; set; }
+
+        //メソッドの定義
+        //定義内のプロパティへのアクセス時のthisは省略可能
+        public void Print()
+        {
+            Console.WriteLine($"■{this.Title}");
+            Console.WriteLine($"  {this.Author}  {this.Pages}ページ  評価：{this.Rating}");
+        }
     }
 }
