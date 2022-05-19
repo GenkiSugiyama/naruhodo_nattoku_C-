@@ -19,6 +19,20 @@ namespace FundamentalsOfOOP
         }
     }
 
+    class Book
+    {
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public int Pages { get; set; }
+        public int Rating { get; set; }
+        public string Memo { get; set; }
+
+        public void Print()
+        {
+            Console.WriteLine($"タイトル：{Title}, 著者：{Author}, ページ数：{Pages}, 評価：{Pages}, メモ：{Memo}");
+        }
+    }
+
     class BmiCalculator
     {
         public double GetBmi(int height, int weight)
