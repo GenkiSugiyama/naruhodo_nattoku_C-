@@ -11,11 +11,21 @@ namespace FundamentalsOfOOP
     {
         public static void Main(string[] args)
         {
-            var bmicalc = new BmiCalculator();
-            var bmi = bmicalc.GetBmi(176, 67);
-            Console.WriteLine("{0:.00}", bmi);
-            var type = bmicalc.GetBodyType(bmi);
-            Console.WriteLine($"あなたは{type}です");
+            var book = new Book
+            {
+                Title = "坊っちゃん",
+                Author = "夏目漱石",
+                Pages = 212,
+                Rating = 4.8,
+                Memo = "難しい"
+            };
+            book.Print();
+
+            //var bmicalc = new BmiCalculator();
+            //var bmi = bmicalc.GetBmi(176, 67);
+            //Console.WriteLine("{0:.00}", bmi);
+            //var type = bmicalc.GetBodyType(bmi);
+            //Console.WriteLine($"あなたは{type}です");
         }
     }
 
@@ -24,7 +34,7 @@ namespace FundamentalsOfOOP
         public string Title { get; set; }
         public string Author { get; set; }
         public int Pages { get; set; }
-        public int Rating { get; set; }
+        public double Rating { get; set; }
         public string Memo { get; set; }
 
         public void Print()
