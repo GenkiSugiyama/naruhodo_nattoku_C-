@@ -11,15 +11,34 @@ namespace FundamentalsOfOOP
     {
         public static void Main(string[] args)
         {
-            var book = new Book
+            var takashi = new Employee
             {
-                Title = "坊っちゃん",
-                Author = "夏目漱石",
-                Pages = 212,
-                Rating = 4.8,
-                Memo = "難しい"
+                Id = 1,
+                FamilyName = "佐藤",
+                GivenName = "たかし",
+                EmailAddress = "takashi@com"
             };
-            book.Print();
+
+            var ichiro = new Employee
+            {
+                Id = 2,
+                FamilyName = "鈴木",
+                GivenName = "一郎",
+                EmailAddress = "ichiro@com"
+            };
+
+            Console.WriteLine(takashi.GetFullName());
+            Console.WriteLine(ichiro.GetFullName());
+
+            //var book = new Book
+            //{
+            //    Title = "坊っちゃん",
+            //    Author = "夏目漱石",
+            //    Pages = 212,
+            //    Rating = 4.8,
+            //    Memo = "難しい"
+            //};
+            //book.Print();
 
             //var bmicalc = new BmiCalculator();
             //var bmi = bmicalc.GetBmi(176, 67);
@@ -29,45 +48,59 @@ namespace FundamentalsOfOOP
         }
     }
 
-    class Book
+    class Employee
     {
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public int Pages { get; set; }
-        public double Rating { get; set; }
-        public string Memo { get; set; }
+        public int Id { get; set; }
+        public string FamilyName { get; set; }
+        public string GivenName { get; set; }
+        public string EmailAddress { get; set; }
 
-        public void Print()
+        public string GetFullName()
         {
-            Console.WriteLine($"タイトル：{Title}, 著者：{Author}, ページ数：{Pages}, 評価：{Pages}, メモ：{Memo}");
+            var fullName = $"{FamilyName} {GivenName}";
+            return fullName;
         }
     }
 
-    class BmiCalculator
-    {
-        public double GetBmi(int height, int weight)
-        {
-            var matersTall = height / 100.0;
-            var bmi = weight / (matersTall * matersTall);
-            return bmi;
-        }
+    //class Book
+    //{
+    //    public string Title { get; set; }
+    //    public string Author { get; set; }
+    //    public int Pages { get; set; }
+    //    public double Rating { get; set; }
+    //    public string Memo { get; set; }
 
-        public string GetBodyType(double bmi)
-        {
-            var type = "";
-            if (bmi < 18.5)
-            {
-                type = "痩せ型";
-            }
-            else if(bmi < 25)
-            {
-                type = "普通体重";
-            }
-            else
-            {
-                type = "肥満";
-            }
-            return type;
-        }
-    }
+    //    public void Print()
+    //    {
+    //        Console.WriteLine($"タイトル：{Title}, 著者：{Author}, ページ数：{Pages}, 評価：{Pages}, メモ：{Memo}");
+    //    }
+    //}
+
+    //class BmiCalculator
+    //{
+    //    public double GetBmi(int height, int weight)
+    //    {
+    //        var matersTall = height / 100.0;
+    //        var bmi = weight / (matersTall * matersTall);
+    //        return bmi;
+    //    }
+
+    //    public string GetBodyType(double bmi)
+    //    {
+    //        var type = "";
+    //        if (bmi < 18.5)
+    //        {
+    //            type = "痩せ型";
+    //        }
+    //        else if(bmi < 25)
+    //        {
+    //            type = "普通体重";
+    //        }
+    //        else
+    //        {
+    //            type = "肥満";
+    //        }
+    //        return type;
+    //    }
+    //}
 }
