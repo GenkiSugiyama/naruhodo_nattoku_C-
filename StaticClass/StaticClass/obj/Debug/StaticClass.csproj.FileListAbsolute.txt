@@ -1,0 +1,6 @@
+/Users/sugiyamagenki/Projects/StaticClass/StaticClass/bin/Debug/StaticClass.exe
+/Users/sugiyamagenki/Projects/StaticClass/StaticClass/bin/Debug/StaticClass.pdb
+/Users/sugiyamagenki/Projects/StaticClass/StaticClass/obj/Debug/StaticClass.csproj.AssemblyReference.cache
+/Users/sugiyamagenki/Projects/StaticClass/StaticClass/obj/Debug/StaticClass.csproj.CoreCompileInputs.cache
+/Users/sugiyamagenki/Projects/StaticClass/StaticClass/obj/Debug/StaticClass.exe
+/Users/sugiyamagenki/Projects/StaticClass/StaticClass/obj/Debug/StaticClass.pdb

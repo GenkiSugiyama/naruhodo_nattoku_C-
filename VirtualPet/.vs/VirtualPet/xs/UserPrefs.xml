@@ -1,15 +1,14 @@
-﻿<Properties StartupConfiguration="{498818FD-E855-463B-B902-A42C6B149631}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FundamentalsOfOOP/Program.cs">
+﻿<Properties StartupConfiguration="{E84304D2-45F7-427C-8DC3-776AD8AB6284}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VirtualPet/Program.cs">
     <Files>
-      <File FileName="FundamentalsOfOOP/Program.cs" Line="47" Column="50" />
-      <File FileName="../StaticClass/StaticClass/Program.cs" />
+      <File FileName="VirtualPet/Program.cs" Line="13" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="FundamentalsOfOOP" expanded="True">
-            <Node name="FundamentalsOfOOP" expanded="True">
+          <Node name="VirtualPet" expanded="True">
+            <Node name="VirtualPet" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -17,9 +16,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FundamentalsOfOOP PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.VirtualPet FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

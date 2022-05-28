@@ -1,0 +1,6 @@
+/Users/sugiyamagenki/Projects/VirtualPet/VirtualPet/bin/Debug/VirtualPet.exe
+/Users/sugiyamagenki/Projects/VirtualPet/VirtualPet/bin/Debug/VirtualPet.pdb
+/Users/sugiyamagenki/Projects/VirtualPet/VirtualPet/obj/Debug/VirtualPet.csproj.AssemblyReference.cache
+/Users/sugiyamagenki/Projects/VirtualPet/VirtualPet/obj/Debug/VirtualPet.csproj.CoreCompileInputs.cache
+/Users/sugiyamagenki/Projects/VirtualPet/VirtualPet/obj/Debug/VirtualPet.exe
+/Users/sugiyamagenki/Projects/VirtualPet/VirtualPet/obj/Debug/VirtualPet.pdb
