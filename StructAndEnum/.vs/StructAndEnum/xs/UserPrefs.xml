@@ -1,14 +1,14 @@
-﻿<Properties StartupConfiguration="{E84304D2-45F7-427C-8DC3-776AD8AB6284}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="VirtualPet/Program.cs">
+﻿<Properties StartupConfiguration="{F0EE3243-0730-41A5-AFF3-48AE59F02C17}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StructAndEnum/Program.cs">
     <Files>
-      <File FileName="VirtualPet/Program.cs" Line="71" Column="27" />
+      <File FileName="StructAndEnum/Program.cs" Line="13" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="VirtualPet" expanded="True">
-            <Node name="VirtualPet" expanded="True">
+          <Node name="StructAndEnum" expanded="True">
+            <Node name="StructAndEnum" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.VirtualPet PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.StructAndEnum FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

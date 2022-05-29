@@ -1,0 +1,6 @@
+/Users/sugiyamagenki/Projects/StructAndEnum/StructAndEnum/bin/Debug/StructAndEnum.exe
+/Users/sugiyamagenki/Projects/StructAndEnum/StructAndEnum/bin/Debug/StructAndEnum.pdb
+/Users/sugiyamagenki/Projects/StructAndEnum/StructAndEnum/obj/Debug/StructAndEnum.csproj.AssemblyReference.cache
+/Users/sugiyamagenki/Projects/StructAndEnum/StructAndEnum/obj/Debug/StructAndEnum.csproj.CoreCompileInputs.cache
+/Users/sugiyamagenki/Projects/StructAndEnum/StructAndEnum/obj/Debug/StructAndEnum.exe
+/Users/sugiyamagenki/Projects/StructAndEnum/StructAndEnum/obj/Debug/StructAndEnum.pdb
