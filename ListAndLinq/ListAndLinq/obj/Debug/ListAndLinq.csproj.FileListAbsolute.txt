@@ -1,0 +1,6 @@
+/Users/sugiyamagenki/Projects/ListAndLinq/ListAndLinq/bin/Debug/ListAndLinq.exe
+/Users/sugiyamagenki/Projects/ListAndLinq/ListAndLinq/bin/Debug/ListAndLinq.pdb
+/Users/sugiyamagenki/Projects/ListAndLinq/ListAndLinq/obj/Debug/ListAndLinq.csproj.AssemblyReference.cache
+/Users/sugiyamagenki/Projects/ListAndLinq/ListAndLinq/obj/Debug/ListAndLinq.csproj.CoreCompileInputs.cache
+/Users/sugiyamagenki/Projects/ListAndLinq/ListAndLinq/obj/Debug/ListAndLinq.exe
+/Users/sugiyamagenki/Projects/ListAndLinq/ListAndLinq/obj/Debug/ListAndLinq.pdb
