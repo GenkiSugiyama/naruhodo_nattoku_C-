@@ -22,12 +22,12 @@ namespace ListAndLinq
             //}
 
             //Selectメソッドは各要素を別の値に変換する
-            var nums = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            var query = nums.Select(n => n * 2);
-            foreach(var n in query)
-            {
-                Console.WriteLine(n);
-            }
+            //var nums = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //var query = nums.Select(n => n * 2);
+            //foreach(var n in query)
+            //{
+            //    Console.WriteLine(n);
+            //}
 
             //もとのコレクションの要素はBookクラスだけど、Selectメソッドで文字列型のTitleを取り出して
             //stringクラスのコレクションを新しく作成している
@@ -38,10 +38,27 @@ namespace ListAndLinq
             books.Add(new Book("こころ", "夏目漱石", 5));
             books.Add(new Book("銀河鉄道の夜", "川端康成", 3));
             books.Add(new Book("伊豆の踊り子", "川端康成", 3));
-            var titles = books.Select(book => book.Title);
-            foreach(var title in titles)
+            //var titles = books.Select(book => book.Title);
+            //foreach(var title in titles)
+            //{
+            //    Console.WriteLine(title);
+            //}
+
+            //LINQは複数のメソッドを組み合わせることができる
+            //レートが5以上の要素を取り出し、タイトルstringのみに変換する
+            //var famousTitles = books.Where(b => b.Rate >= 5).Select(b => b.Title);
+            //foreach(var t in famousTitles)
+            //{
+            //    Console.WriteLine(t);
+            //}
+
+            //3つ以上のメソッド連結も可能
+            var query = books.Where(b => b.Rate >= 4)
+                             .Select(b => b.Author)
+                             .Distinct(); // Distinctは重複を排除する
+            foreach(var author in query)
             {
-                Console.WriteLine(title);
+                Console.WriteLine(author);
             }
         }
     }
