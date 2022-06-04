@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{3AF038A7-F1ED-4345-929F-A7656EE2EA25}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ListAndLinq/Program.cs">
     <Files>
-      <File FileName="ListAndLinq/Program.cs" Line="1" Column="1" />
+      <File FileName="ListAndLinq/Program.cs" Line="61" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,5 +22,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ListAndLinq FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ListAndLinq PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

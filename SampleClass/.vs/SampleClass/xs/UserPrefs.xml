@@ -7,8 +7,10 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="SampleClass" expanded="True" selected="True">
-            <Node name="SampleClass" expanded="True" />
+          <Node name="SampleClass" expanded="True">
+            <Node name="SampleClass" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
