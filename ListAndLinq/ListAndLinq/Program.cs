@@ -32,12 +32,12 @@ namespace ListAndLinq
             //もとのコレクションの要素はBookクラスだけど、Selectメソッドで文字列型のTitleを取り出して
             //stringクラスのコレクションを新しく作成している
             var books = new List<Book>();
-            books.Add(new Book("人間失格", "太宰治", 5));
-            books.Add(new Book("女生徒", "太宰治", 4));
-            books.Add(new Book("吾輩は猫である", "夏目漱石", 4));
-            books.Add(new Book("こころ", "夏目漱石", 5));
-            books.Add(new Book("銀河鉄道の夜", "川端康成", 3));
-            books.Add(new Book("伊豆の踊り子", "川端康成", 3));
+            books.Add(new Book("人間失格", "太宰治", 212, 5));
+            books.Add(new Book("女生徒", "太宰治", 279, 4));
+            books.Add(new Book("吾輩は猫である", "夏目漱石", 610, 4));
+            books.Add(new Book("こころ", "夏目漱石", 378, 5));
+            books.Add(new Book("銀河鉄道の夜", "川端康成", 357, 3));
+            books.Add(new Book("伊豆の踊り子", "川端康成", 201, 3));
             //var titles = books.Select(book => book.Title);
             //foreach(var title in titles)
             //{
@@ -53,13 +53,68 @@ namespace ListAndLinq
             //}
 
             //3つ以上のメソッド連結も可能
-            var query = books.Where(b => b.Rate >= 4)
-                             .Select(b => b.Author)
-                             .Distinct(); // Distinctは重複を排除する
-            foreach(var author in query)
+            //var query = books.Where(b => b.Rate >= 4)
+            //                 .Select(b => b.Author)
+            //                 .Distinct(); // Distinctは重複を排除する
+            //foreach(var author in query)
+            //{
+            //    Console.WriteLine(author);
+            //}
+
+            //Q1-1,3
+            List<DateTime> times = new List<DateTime>();
+            times.Add(new DateTime(1993, 3, 18));
+            times.Add(new DateTime(1993, 6, 30));
+            times.Add(new DateTime(1993, 8, 22));
+            times.ForEach(t => Console.WriteLine(t.ToString("yyyy年MM月dd日 HH:mm")));
+            //Q1-2
+            Console.WriteLine(times.Count());
+
+            //Q2-1
+            void Linq1()
             {
-                Console.WriteLine(author);
+                var famousBooks = books.Where(b => b.Rate >= 4);
+                Console.WriteLine("Q2-1");
+                foreach (Book book in famousBooks)
+                {
+                    Console.WriteLine($"書籍名：{book.Title}, 著者名：{book.Author}");
+                }
             }
+            
+            //Q2-2
+            void Linq2()
+            {
+                var newOrderBooks = books.OrderBy(b => b.Author);
+                Console.WriteLine("Q2-2");
+                foreach (Book book in newOrderBooks)
+                {
+                    Console.WriteLine($"書籍名：{book.Title}, 著者名：{book.Author}");
+                }
+            }
+
+            //Q2-3
+            void Linq3()
+            {
+                Book[] bookArray = books.Where(b => b.Page >= 300).ToArray();
+                Console.WriteLine("Q2-3");
+                foreach (Book book in bookArray)
+                {
+                    Console.WriteLine($"書籍名：{book.Title}, ページ数：{book.Page}");
+                }
+            }
+
+            //Q2-4
+            void Linq4()
+            {
+                Console.WriteLine("Q2-4");
+                var book = books.OrderByDescending(b => b.Page).First();
+                Console.WriteLine($"書籍名：{book.Title}, ページ数：{book.Page}");
+            }
+
+            Linq1();
+            Linq2();
+            Linq3();
+            Linq4();
         }
     }
 
@@ -67,12 +122,14 @@ namespace ListAndLinq
     {
         public string Title { get; set; }
         public string Author { get; set; }
+        public int Page { get; set; }
         public int Rate { get; set; }
 
-        public Book(string title, string author, int rate)
+        public Book(string title, string author,int page, int rate)
         {
             this.Title = title;
             this.Author = author;
+            this.Page = page;
             this.Rate = rate;
         }
     }

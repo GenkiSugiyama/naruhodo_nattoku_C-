@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{F0EE3243-0730-41A5-AFF3-48AE59F02C17}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StructAndEnum/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../ListAndLinq/ListAndLinq/Program.cs">
     <Files>
-      <File FileName="StructAndEnum/Program.cs" Line="42" Column="11" />
+      <File FileName="StructAndEnum/Program.cs" Line="57" Column="44" />
+      <File FileName="../ListAndLinq/ListAndLinq/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
