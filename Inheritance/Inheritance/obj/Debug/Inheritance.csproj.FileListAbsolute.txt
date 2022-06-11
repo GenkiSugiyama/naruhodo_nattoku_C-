@@ -1,0 +1,6 @@
+/Users/sugiyamagenki/Projects/Inheritance/Inheritance/bin/Debug/Inheritance.exe
+/Users/sugiyamagenki/Projects/Inheritance/Inheritance/bin/Debug/Inheritance.pdb
+/Users/sugiyamagenki/Projects/Inheritance/Inheritance/obj/Debug/Inheritance.csproj.AssemblyReference.cache
+/Users/sugiyamagenki/Projects/Inheritance/Inheritance/obj/Debug/Inheritance.csproj.CoreCompileInputs.cache
+/Users/sugiyamagenki/Projects/Inheritance/Inheritance/obj/Debug/Inheritance.exe
+/Users/sugiyamagenki/Projects/Inheritance/Inheritance/obj/Debug/Inheritance.pdb

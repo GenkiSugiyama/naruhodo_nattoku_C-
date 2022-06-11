@@ -1,14 +1,14 @@
-﻿<Properties StartupConfiguration="{3AF038A7-F1ED-4345-929F-A7656EE2EA25}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListAndLinq/Program.cs">
+﻿<Properties StartupConfiguration="{9FDA0DC0-7EEB-4763-BD45-1C46D7CE6FBF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inheritance/Program.cs">
     <Files>
-      <File FileName="ListAndLinq/Program.cs" Line="117" Column="21" />
+      <File FileName="Inheritance/Program.cs" Line="14" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="ListAndLinq" expanded="True">
-            <Node name="ListAndLinq" expanded="True">
+          <Node name="Inheritance" expanded="True">
+            <Node name="Inheritance" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,9 +18,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.Inheritance FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ListAndLinq PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
