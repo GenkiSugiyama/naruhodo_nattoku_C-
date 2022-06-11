@@ -1,0 +1,6 @@
+/Users/sugiyamagenki/Projects/Polymorphism/Polymorphism/bin/Debug/Polymorphism.exe
+/Users/sugiyamagenki/Projects/Polymorphism/Polymorphism/bin/Debug/Polymorphism.pdb
+/Users/sugiyamagenki/Projects/Polymorphism/Polymorphism/obj/Debug/Polymorphism.csproj.AssemblyReference.cache
+/Users/sugiyamagenki/Projects/Polymorphism/Polymorphism/obj/Debug/Polymorphism.csproj.CoreCompileInputs.cache
+/Users/sugiyamagenki/Projects/Polymorphism/Polymorphism/obj/Debug/Polymorphism.exe
+/Users/sugiyamagenki/Projects/Polymorphism/Polymorphism/obj/Debug/Polymorphism.pdb
