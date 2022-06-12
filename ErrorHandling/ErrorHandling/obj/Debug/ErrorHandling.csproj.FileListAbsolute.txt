@@ -1,0 +1,6 @@
+/Users/sugiyamagenki/Projects/ErrorHandling/ErrorHandling/bin/Debug/ErrorHandling.exe
+/Users/sugiyamagenki/Projects/ErrorHandling/ErrorHandling/bin/Debug/ErrorHandling.pdb
+/Users/sugiyamagenki/Projects/ErrorHandling/ErrorHandling/obj/Debug/ErrorHandling.csproj.AssemblyReference.cache
+/Users/sugiyamagenki/Projects/ErrorHandling/ErrorHandling/obj/Debug/ErrorHandling.csproj.CoreCompileInputs.cache
+/Users/sugiyamagenki/Projects/ErrorHandling/ErrorHandling/obj/Debug/ErrorHandling.exe
+/Users/sugiyamagenki/Projects/ErrorHandling/ErrorHandling/obj/Debug/ErrorHandling.pdb

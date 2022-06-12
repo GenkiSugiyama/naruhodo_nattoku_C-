@@ -60,21 +60,21 @@ namespace Polymorphism
         {
             Mood -= 1;
             Energy += 5;
-            Console.WriteLine("SleepyPet.Eatメソッドが実行されました");
+            Console.WriteLine($"{nameof(SleepyPet)}.Eatメソッドが実行されました");
         }
 
         public void Play()
         {
             Mood -= 1;
             Energy -= 10;
-            Console.WriteLine("SleepyPet.Playメソッドが実行されました");
+            Console.WriteLine($"{nameof(SleepyPet)}.Playメソッドが実行されました");
         }
 
         public void Sleep()
         {
             Mood += 2;
             Energy += 2;
-            Console.WriteLine("SleepyPet.Sleepメソッドが実行されました");
+            Console.WriteLine($"{nameof(SleepyPet)}.Sleepメソッドが実行されました");
         }
     }
 
